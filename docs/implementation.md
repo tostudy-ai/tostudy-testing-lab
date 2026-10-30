@@ -8,7 +8,7 @@ This fingerprint describes the original experiment, not subsequent documentation
 | Domain and HTTP contracts | Complete | `evidence/red.json`, `evidence/green-core.json`, `evidence/final-tests.json` |
 | Browser workflow | Complete | `evidence/e2e-final.json`, desktop and mobile screenshots |
 | Baseline, optimized suite and challenges | Complete | `evidence/challenges/summary.json`; D1–D5 detected; restored control passed |
-| CI examples and benchmark | Locally validated | `actionlint` passed; hosted CI not executed; `evidence/benchmark/summary.json` |
+| CI examples and benchmark | Local measurements and hosted workflow tracked separately | `actionlint` passed; `evidence/benchmark/summary.json`; see the workflow run for hosted status |
 | Handoff | Complete | README, API contract, exercise guide and measurement protocol |
 
 ## Measured comparison
@@ -35,7 +35,7 @@ The five challenge runs each require behavioral evidence; installation failures 
 
 The repository is now hosted at https://github.com/parisgroup-ai/tostudy-testing-lab.
 The course draft is registered separately in ToStudy; it is not a published course.
-Hosted CI verification is in progress. The [hosted exercise](hosted-ci.md) defines the required evidence; a local YAML check alone does not establish success.
+The [hosted exercise](hosted-ci.md) defines the required evidence; [PR 1](https://github.com/parisgroup-ai/tostudy-testing-lab/pull/1) tracks the initial two-revision observation. A local YAML check alone does not establish success.
 The evidence fingerprint covers tracked and untracked source inputs directly.
 The app has no real authentication, persistence, pricing or model integration.
 The course lessons include an HTTP-only local artifact switch and rollback exercise; it is not a hosted production deployment.
