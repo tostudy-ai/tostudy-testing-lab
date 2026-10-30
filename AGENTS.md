@@ -79,7 +79,7 @@ Mande só uma reprodução mínima e o link do repo de origem. Nunca código, da
 # Testing lab instructions
 
 Canonical repository: `tostudy-ai/tostudy-testing-lab`. Keep this laboratory in the `tostudy-ai` GitHub organization; its workspace location does not imply Paris Group repository ownership.
-Use a pull request and passing CI for canonical-repository changes. The private repository currently has no automatic branch protection on the destination organization’s GitHub Free plan.
+Use a pull request and passing CI for canonical-repository changes. The laboratory is public course material; keep credentials, learner submissions and private course administration out of this repository.
 
 The Paris Group fleet block applies to Paris Group contributors and tooling. The canonical repository belongs to ToStudy; its organization and PR policy above take precedence for repository routing.
 Learner copies are standalone exercises: no Paris Group account, internal package, MCP setup or organization administration is required to study this lab.

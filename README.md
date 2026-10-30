@@ -6,6 +6,8 @@ The application has a real HTTP API, an in-memory store and a Portuguese browser
 
 ## Start locally
 
+Get the lab from [tostudy-ai/tostudy-testing-lab](https://github.com/tostudy-ai/tostudy-testing-lab), or [download the source ZIP](https://github.com/tostudy-ai/tostudy-testing-lab/archive/refs/heads/main.zip).
+
 Use Node 22.23.1 and pnpm 10.34.7. Dependencies are pinned in `pnpm-lock.yaml`.
 Clone the repository, or download its source archive and extract it into a new folder. Run commands from that folder.
 The lab uses public npm packages only; no ToStudy API key or Paris Group development tooling is needed.
