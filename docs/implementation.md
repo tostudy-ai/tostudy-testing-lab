@@ -33,9 +33,9 @@ The five challenge runs each require behavioral evidence; installation failures 
 
 ## Limits
 
-The repository is now hosted at https://github.com/parisgroup-ai/tostudy-testing-lab.
+The repository is now hosted at https://github.com/tostudy-ai/tostudy-testing-lab.
 The course draft is registered separately in ToStudy; it is not a published course.
-The [hosted exercise](hosted-ci.md) defines the required evidence; [PR 1](https://github.com/parisgroup-ai/tostudy-testing-lab/pull/1) tracks the initial two-revision observation. A local YAML check alone does not establish success.
+The [hosted exercise](hosted-ci.md) defines the required evidence; [PR 1](https://github.com/tostudy-ai/tostudy-testing-lab/pull/1) tracks the initial two-revision observation. A local YAML check alone does not establish success.
 The evidence fingerprint covers tracked and untracked source inputs directly.
 The app has no real authentication, persistence, pricing or model integration.
 The course lessons include an HTTP-only local artifact switch and rollback exercise; it is not a hosted production deployment.

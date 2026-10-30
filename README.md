@@ -80,9 +80,9 @@ See [hosted CI exercise](docs/hosted-ci.md) for the repository setup and the two
 
 ## Verification limits
 
-Inspect the [hosted workflow runs](https://github.com/parisgroup-ai/tostudy-testing-lab/actions/workflows/ci.yml) and match the result to the revision being studied.
+Inspect the [hosted workflow runs](https://github.com/tostudy-ai/tostudy-testing-lab/actions/workflows/ci.yml) and match the result to the revision being studied.
 A run is evidence only after the required job completes successfully; queued, running or cancelled runs are not approval.
-The cancellation exercise is documented in [PR 1](https://github.com/parisgroup-ai/tostudy-testing-lab/pull/1). No production deployment is part of this laboratory.
+The cancellation exercise is documented in [PR 1](https://github.com/tostudy-ai/tostudy-testing-lab/pull/1). No production deployment is part of this laboratory.
 Source fingerprints detect stale evidence, including local changes and runtime files; they are not signed provenance or a security attestation.
 A matching report only covers its recorded command and test scope. It cannot replace browser, integration or release checks it did not run.
 The benchmark measures local Vitest command wall time. It does not measure CI invoices, model tokens or production defect rates.
