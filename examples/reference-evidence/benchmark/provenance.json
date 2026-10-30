@@ -1,0 +1,17 @@
+{
+  "capturedAt": "2026-10-30T10:45:54.826Z",
+  "purpose": "Historical teaching evidence for lesson 1.3; not validation of the current checkout.",
+  "sourceFingerprint": "2c8dc30975ca2f2ae837d41d6e6c544e2f919e4aaca10a5ed311f309cc1df75a",
+  "redaction": "Absolute source-machine repository paths replaced by repository-relative paths. Measurements and timestamps are unchanged.",
+  "files": [
+    "baseline-1.json",
+    "baseline-2.json",
+    "baseline-3.json",
+    "optimized-1.json",
+    "optimized-2.json",
+    "optimized-3.json",
+    "summary.json",
+    "warmup-baseline.json",
+    "warmup-optimized.json"
+  ]
+}

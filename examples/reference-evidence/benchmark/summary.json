@@ -1,0 +1,133 @@
+{
+  "createdAt": "2026-10-30T10:45:54.826Z",
+  "environment": {
+    "node": "v22.22.3",
+    "platform": "darwin",
+    "arch": "arm64",
+    "cpu": "Apple M5 Max"
+  },
+  "scope": "Local Vitest process wall time, dependencies installed; one warmup per mode; no browser or CI billing measurement",
+  "baseline": {
+    "medianMs": 2272,
+    "minMs": 1764,
+    "maxMs": 3059,
+    "passed": 39
+  },
+  "optimized": {
+    "medianMs": 1406,
+    "minMs": 1196,
+    "maxMs": 1733,
+    "passed": 35
+  },
+  "wallTimeReduction": 0.38116197183098594,
+  "agentTokens": null,
+  "billedCost": null,
+  "runs": {
+    "baseline": [
+      {
+        "fingerprint": "2c8dc30975ca2f2ae837d41d6e6c544e2f919e4aaca10a5ed311f309cc1df75a",
+        "node": "v22.22.3",
+        "platform": "darwin",
+        "command": [
+          "pnpm",
+          "test:baseline",
+          "--reporter=json",
+          "--outputFile=evidence/benchmark/baseline-1.json"
+        ],
+        "passed": 39,
+        "failed": 0,
+        "pending": 0,
+        "exitCode": 0,
+        "durationMs": 3059,
+        "createdAt": "2026-10-30T10:45:46.447Z"
+      },
+      {
+        "fingerprint": "2c8dc30975ca2f2ae837d41d6e6c544e2f919e4aaca10a5ed311f309cc1df75a",
+        "node": "v22.22.3",
+        "platform": "darwin",
+        "command": [
+          "pnpm",
+          "test:baseline",
+          "--reporter=json",
+          "--outputFile=evidence/benchmark/baseline-2.json"
+        ],
+        "passed": 39,
+        "failed": 0,
+        "pending": 0,
+        "exitCode": 0,
+        "durationMs": 2272,
+        "createdAt": "2026-10-30T10:45:51.325Z"
+      },
+      {
+        "fingerprint": "2c8dc30975ca2f2ae837d41d6e6c544e2f919e4aaca10a5ed311f309cc1df75a",
+        "node": "v22.22.3",
+        "platform": "darwin",
+        "command": [
+          "pnpm",
+          "test:baseline",
+          "--reporter=json",
+          "--outputFile=evidence/benchmark/baseline-3.json"
+        ],
+        "passed": 39,
+        "failed": 0,
+        "pending": 0,
+        "exitCode": 0,
+        "durationMs": 1764,
+        "createdAt": "2026-10-30T10:45:53.090Z"
+      }
+    ],
+    "optimized": [
+      {
+        "fingerprint": "2c8dc30975ca2f2ae837d41d6e6c544e2f919e4aaca10a5ed311f309cc1df75a",
+        "node": "v22.22.3",
+        "platform": "darwin",
+        "command": [
+          "pnpm",
+          "test",
+          "--reporter=json",
+          "--outputFile=evidence/benchmark/optimized-1.json"
+        ],
+        "passed": 35,
+        "failed": 0,
+        "pending": 0,
+        "exitCode": 0,
+        "durationMs": 1406,
+        "createdAt": "2026-10-30T10:45:47.854Z"
+      },
+      {
+        "fingerprint": "2c8dc30975ca2f2ae837d41d6e6c544e2f919e4aaca10a5ed311f309cc1df75a",
+        "node": "v22.22.3",
+        "platform": "darwin",
+        "command": [
+          "pnpm",
+          "test",
+          "--reporter=json",
+          "--outputFile=evidence/benchmark/optimized-2.json"
+        ],
+        "passed": 35,
+        "failed": 0,
+        "pending": 0,
+        "exitCode": 0,
+        "durationMs": 1196,
+        "createdAt": "2026-10-30T10:45:49.052Z"
+      },
+      {
+        "fingerprint": "2c8dc30975ca2f2ae837d41d6e6c544e2f919e4aaca10a5ed311f309cc1df75a",
+        "node": "v22.22.3",
+        "platform": "darwin",
+        "command": [
+          "pnpm",
+          "test",
+          "--reporter=json",
+          "--outputFile=evidence/benchmark/optimized-3.json"
+        ],
+        "passed": 35,
+        "failed": 0,
+        "pending": 0,
+        "exitCode": 0,
+        "durationMs": 1733,
+        "createdAt": "2026-10-30T10:45:54.824Z"
+      }
+    ]
+  }
+}
